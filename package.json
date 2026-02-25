@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "name": "resenha_das_classes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Ueslei Carvalho",
+  "license": "MIT",
+  "description": "Sistema básico usando Readline-sync e Arquitetura MVC"
+}
