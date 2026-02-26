@@ -12,5 +12,6 @@
   "keywords": [],
   "author": "Ueslei Carvalho",
   "license": "MIT",
-  "description": "Sistema básico usando Readline-sync e Arquitetura MVC"
+  "description": "Sistema básico usando Readline-sync e Arquitetura MVC",
+  "type": "module"
 }

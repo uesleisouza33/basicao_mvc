@@ -1,13 +1,16 @@
 import Cone from "../models/Cone.js";
 
-export function createCone(data){
-    const cone = new Cone(
-        data.radius,
-        data.height,
-    )
+export function createCone(data) {
+  const cone = new Cone(
+    data.radius, 
+    data.height
+);
 
-    return {
-        area: cone.area,
-        volume: cone.volume,
-    }
+  return {
+    generatrix: cone.generatrix,
+    baseArea: cone.baseArea,
+    lateralArea: cone.lateralArea,
+    totalArea: cone.totalArea,
+    volume: cone.volume,
+  };
 }
